@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patitas Bulnerables</title>
+    <link rel="stylesheet" href="estilos.css"> <!--Aqui vamos a direccionar a los estilos para darle formato a la pagina -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> <!--Direccion a fonts de gogle que implementamos-->
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'><!--usamos este link para los iconos que se implementan en el footer-->
+</head>
+<body>
+    <!--Creamos un encabezado para el menu desplegable en la pagina y nuestra imagen de cabezaera como logo del ITMA-->
+    <header class="header" id="inicio">
+        <img class="hamburguer" src="img/amburguesa.svg" alt=""><!--imagen para el menu desplegable-->
+        <nav class="menu-navegacion">
+                <a href="#inicio">Inicio</a>
+              
+                <a href="#servicio">Servicio</a>
+                <a href="#galeria">Portafolio</a>
+                <a href="#expertos">Especializados</a>
+                <a href="#footer">Contacto</a>
+                
+        </nav>
+        <!--en el contenedor vamos a ver nuestra imagen de insignia ITMA y un pequeño texto de inspiracion-->
+        <div class="contenedor head">
+                <h1 class="titulo" >Logramos una vida digna para los peluditos que amamos.</h1>
+                <!--<h2 class="titulo">online.</h2>-->
+                <p class="copy">Patitas Bulnerables.</p>
+            
+        </div>
+        
+    </header>
+    <main>
+        <!--creamos esta seccion para agregar el apartado de tutorias, que son , para que sirven y mas(Modificar estilos)-->
+        <section class="services contenedor" id="servicio">
+            <h2 class="subtitulo">Programa Comunitario Salvando Patitas.</h2>
+            
+            <p class="copy2"> El programa comunitario  de Milpa Alta Salvando Patitas está centrado en el rescatar y buscarles un hogar  a los animalitos en situación de calle, por ello se pone a disposición de toda la comunidad esta pagina web para proporcionar a los animalitos callejeros los elementos necesarios para una vida digna ,salvaguardad  su integridad y valorar su salud en ámbitos llenos de amor que contribuyan a su supervivencia para encontrar un digno hogar y la felicidad.</p><br> 
+            <div class="contenedor-servicio">
+                <img src="img/Checklist_Isometric.svg" alt="imagen de listado">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        
+                        <h3 class="n-service"><span class="number">1</span>¿Por que salvar a un animalito en situación de calle ?</h3>
+                        <p class="copy3">México es el país con mayor población de perros en Latinoamérica, pero ni la mitad de ellos tiene hogar o refugio. Según datos de la Secretaría de Salud existen alrededor de 22 millones de canes, de los cuales más de 10 millones viven en las calles. “ <br>
+                            Los perros no deberían estar en la vía pública por cuestiones de salud, ya que pueden transmitir enfermedades al humano, por ejemplo, a través de las heces fecales, y también por seguridad, pues algunos se tornan agresivos. Especialistas y protectores de animales coinciden en que la solución es alentar la esterilización y la tenencia responsable.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>¿Cómo cuidar los animales de la calle?</h3>
+                        <p class="copy3"> • Adoptar. <br>
+                            • Dar hogar temporalmente.<br>
+                            • Ser voluntario. <br>
+                            • Esterilizar a tus mascotas.<br> 
+                            • Denuncia el maltrato animal.<br>
+                            • Haz una donación.</p>
+                            
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>¡Salva vidas! Así puedes denunciar maltrato animal en CDMX.</h3>
+                        <p class="copy3">A nivel Nacional: <br>
+                            La PROFEPA es la encargada de dar seguimiento a denuncias sobre maltrato animal a fauna silvestre. Puedes denunciar por medio de www.profepa.gob.mx o al teléfono 800 PROFEPA.<br>
+                            <center><A HREF="https://www.gob.mx/profepa"> Da click aqui para ir a la pagina oficial de profepa. </A></center>
+                        </p>                         
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--En esta seccion se deben meter imagenes,videos u ipervinculos a los cursos que se estan impartiendo en el tec -->
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Se ha logrado...</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/1.jpg"  class="img-galeria" alt="Hola">
+                    <img src="img/2.jpg" class="img-galeria" alt="">
+                    <img src="img/3.jpg" class="img-galeria" alt="">
+                    <img src="img/4.jpg" class="img-galeria" alt="">
+                    <img src="img/5.jpg" class="img-galeria" alt="">
+                    <img src="img/6.jpg" class="img-galeria" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="imagen-light">
+            <img src="img/close.svg" alt="" class="close"><!--imagen flotante de una x para cerrar las imagenes de la galeria abiertas-->
+            <img src="" alt="" class="agregar-imagen">
+        </div>
+        <!--En esta seccion solo se hace referencia a las carreras que imparte el tec y por ende a los cursos Nota si es necesario anexe un ipervinculo de direccionamiento-->
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Expertos en:</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="img/seguridad.svg" alt="">
+                    <h3 class="n-expert">La seguridad de los animales.</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/home.jpg" height="213" alt="">
+                    <h3 class="n-expert">Salvar animalitos en situacion de calle</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/salvar.svg" alt="">
+                    <h3 class="n-expert">Promover el respeto hacia los animales en la comunidad</h3>
+                </div>
+            </section>
+        </section>
+    </main>
+    <!--en el footer vamos a contener la parte de contacto-->
+    <footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">Reto Inicial Innovaccion</h2>
+                    <p>Reto Master Somos expertos en el cuidado de los animales</p>
+                </div>
+                <div class="social-media"><!--Agrega los hipervinculos a las redes sociales del ITMA asi como sitios web-->
+                    <a href="https://web.facebook.com/MicrosoftDeveloper" class="social-media-icon" >
+                        <!--recuerda que los iconos estan siendo llamados desde una libreria agregada con google icons por lo que no estan en la carpeta img-->
+                        <i class='bx bxl-facebook'></i><!--icono de facebook con un link-->
+                    </a>
+                    <a href="https://twitter.com/Microsoft" class="social-media-icon">
+                        <i class='bx bxl-twitter' ></i><!--icono de twitter -->
+                    </a>
+                    <!--<a href="./" class="social-media-icon">
+                        <i class='bx bxl-instagram' ></i><!--icono de instafgram 
+                    </a>-->
+                </div>
+        </div>
+        <div class="line">
+            <br><h2 class="Referencia">Sistema creado por Ing.Luis Antonio Linares Carbajal.</h2>
+            <div class="TECHMEX-socialmedias">
+                <a href="https://web.facebook.com/TECH-MEX-102327795521973" class="social-media-icon2" >
+                    <!--recuerda que los iconos estan siendo llamados desde una libreria agregada con google icons por lo que no estan en la carpeta img-->
+                    <i class='bx bxl-facebook'></i><!--icono de facebook con un link-->
+                </a>
+                <a href="./" class="social-media-icon2">
+                    <i class='bx bxl-twitter' ></i><!--icono de twitter -->
+                </a>
+                <a href="https://www.instagram.com/techmex_comfoinge/?fbclid=IwAR2Up98PzeFY5i6YuSLnf2CMZDMC_Z5YoIqmqN0Srad5Dbs2wvINUV0KhLA" class="social-media-icon2">
+                    <i class='bx bxl-instagram' ></i><!--icono de instafgram -->
+                </a>
+                <a href="https://www.youtube.com/c/TECHMEX-Elcomfortdelingeniero" class="social-media-icon2">
+                    <i class='bx bxl-youtube' ></i><!--icono de youtube -->
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html>
